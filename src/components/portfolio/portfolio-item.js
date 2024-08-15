@@ -30,11 +30,12 @@ export default class PortfolioItem extends Component {
       render() {
       const {id, description, thumb_image_url, logo_url} = this.props.item;
       return (
+        <Link to={`/portfolio/${id}`}>     
     <div 
       className="portfolio-item-wrapper"
       onMouseEnter={() => this.handleMouseEnter()}
       onMouseLeave={() => this.handleMouseLeave()}
-    >
+      >
       {/* <h1>{this.state.PortfolioItemClass}</h1> */}
 
       <div
@@ -42,7 +43,7 @@ export default class PortfolioItem extends Component {
         style={{
           backgroundImage: "url(" + thumb_image_url + ")"
         }}
-      />
+        />
       
 
 
@@ -62,8 +63,10 @@ export default class PortfolioItem extends Component {
 
 
 
-    </div>
-  );
-      }
+      </div>
+      </Link>
+
+    );
+  }
 
 }

@@ -25,20 +25,30 @@ export default class PortfolioContainer extends Component {
   }
 
   handleFilter(filter) {
-    this.setState({
-      data: this.state.data.filter((item) => {
-        return item.category === filter;
-      }),
-    });
+    if (filter === "CLEAR_FILTERS") {
+      this.getPortfolioItems();
+    } else {  
+      this.getPortfolioItems(filter);
+    }
   }
 
-  getPortfolioItems() {
+  getPortfolioItems(filter = null) {
     axios
       .get("https://denmcnabb.devcamp.space/portfolio/portfolio_items")
       .then((response) => {
-        this.setState({
-          data: response.data.portfolio_items,
-        });
+        if (filter) {
+          this.setState({
+            data: response.data.portfolio_items.filter((item) => {
+              return item.category === filter;
+            }),
+          });
+          
+        } else {
+          this.setState({
+            data: response.data.portfolio_items,
+          });
+        }
+
       })
       .catch((error) => {
         console.log(error);
@@ -61,26 +71,35 @@ export default class PortfolioContainer extends Component {
     }
 
     return (
-      <div className="portfolio-items-wrapper">
-        <button className="btn" onClick={() => this.handleFilter("eCommerce")}>
-          eCommerce
-        </button>
-        <button className="btn" onClick={() => this.handleFilter("Scheduling")}>
-          Scheduling
-        </button>
-        <button className="btn" onClick={() => this.handleFilter("Enterprise")}>
-          Enterprise   
-          asdfasdf
-        </button>
+      <div className="homepage-wrapper">
+        <div className="filter-links">
+          <button className="btn" onClick={() => this.handleFilter("eCommerce")}>
+            eCommerce
+          </button>
+          <button className="btn" onClick={() => this.handleFilter("Scheduling")}>
+            Scheduling
+          </button>
+          <button className="btn" onClick={() => this.handleFilter("Enterprise")}>
+            Enterprise_
+            asdfasdf
+          </button>          
+          <button className="btn" onClick={() => this.handleFilter("CLEAR_FILTERS")}>
+            All            
+          </button>
+        </div>
 
-        {this.portfolioItems()}
+        <div className="portfolio-items-wrapper">
 
-        {/* <div>
-          <h1>This TEST.,., is the PORTFOLIO CONTAINER text, asdfasdf.</h1>
-          <h2>{this.state.pageTitle}</h2>
           {this.portfolioItems()}
-        </div> */}
+
+          {/* <div>
+            <h1>This TEST.,., is the PORTFOLIO CONTAINER text, asdfasdf.</h1>
+            <h2>{this.state.pageTitle}</h2>
+            {this.portfolioItems()}
+            </div> */}
+        </div>
       </div>
+
     )
   }
 }

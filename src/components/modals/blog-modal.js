@@ -40,8 +40,6 @@ render() {
             this.props.handleModalClose();
         }} isOpen={this.props.modalIsOpen}>
             <BlogForm handleSuccessfulFormSubmission={this.handleSuccessfulFormSubmission}></BlogForm>
-
-
         </ReactModal>
     )
 }

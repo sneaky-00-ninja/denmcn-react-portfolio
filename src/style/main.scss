@@ -5,9 +5,12 @@
 @import "./button.scss";
 @import "./grid.scss";
 @import "./navigation.scss";
+@import "./layouts.scss";
+@import "./home.scss";
 @import "./portfolio-manager.scss";
 @import "./portfolio-form.scss";
 @import "./portfolio-sidebar.scss";
+@import "./portfolio-detail.scss";
 @import "./portfolio.scss";
 @import "./auth.scss";
 @import "./blog.scss";
@@ -15,6 +18,7 @@
 @import "./blog-form.scss";
 @import "./modals.scss";
 @import "./react-draft-wysiwyg.scss";
+@import "./rich-text-editor.scss";
 
 // Note ****   the order of imported things above it VERY IMPORTANT.
 // becuase of the cascading nature.
