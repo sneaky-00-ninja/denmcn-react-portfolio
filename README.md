@@ -22,3 +22,8 @@ Now this is to be a temporary planning space for my history section of my Portfo
 2007. -2008 xerox office.
 2009 -2016. printer
 
+2017 -2018. Office admin
+
+2019. CAD Design assistant. 
+2020-2023. Robotics
+2023-2024. Electical installer
