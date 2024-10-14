@@ -11,19 +11,20 @@ I began publishing this project directly from VSCode.
 
 Now this is to be a temporary planning space for my history section of my Portfolio. to fill in later... 
 
+    Summary of working experience by year: 
 1999. Delivery driver. Customer service operator. 
 2000. Security installation 
 2001. Securitey installations supervisor.
-2002. nz
-2003. W
-2004. Summer camp. . 
-2005. Rafting guide.
-2006. Builders laborer
+2002. Outward Bound. Computer admin training course.
+2003. Courier driver. (Japan experience) 
+2004. Summer camp. Data Entry.  
+2005. Builders laborer. Rafting guide.
+2006. Builders laborer. English teacher. 
 2007. -2008 xerox office.
 2009 -2016. printer
 
 2017 -2018. Office admin
 
 2019. CAD Design assistant. 
-2020-2023. Robotics
+2020-2023. Robotics course. English Teacher.
 2023-2024. Electical installer
