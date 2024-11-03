@@ -38,3 +38,10 @@ Now this is to be a temporary planning space for my history section of my Portfo
 
       2018- Bachelor of Engineering in Design and Innovation
 
+
+
+      ## Languages.
+      English Native)
+      Spanish (Advanced)
+      Basque (Beginner)
+      
