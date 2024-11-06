@@ -32,7 +32,8 @@ Now this is to be a temporary planning space for my history section of my Portfo
 
       ## Qualifations 
       
-      2024- PT Full Stack Development with JavaScript, Python, React. Bottega University DevCamp. 
+      2024- PT Full Stack Development with JavaScript, Python, React. Bottega University DevCamp.
+          "Certificado de Competencia en Desarrollo Full Stack"
 
       2023- Coding foundations. Bottega University DevCamp.
 
