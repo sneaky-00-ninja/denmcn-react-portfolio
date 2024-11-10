@@ -2,8 +2,10 @@ This is the file for noting progress with the plans and actions for continual gr
 
 
 1). Continual study. 
-      Review Bottega DevCamp tutorial Video. 
+      Review Bottega DevCamp tutorial Videos. 
 
 2). Projects 
       Improve the Vocab Booster app. 
+      Create a new project that involves some sort of transaction process. 
+      Create a project that can be installed on a phone as an app. 
       
