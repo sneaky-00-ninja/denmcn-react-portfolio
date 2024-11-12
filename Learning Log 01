@@ -2,3 +2,14 @@ From now on I will be updating a daily record of my plans and actions relating t
 
 
 11 Nov.  Reviewed the Pipenv virtual environment tutorial video.
+
+12 Nov.  Did a quick python exercise for temperature conversion... 
+    here is the result... 
+# Step 1: Prompt the user to enter a temperature in Celsius
+celsius = float(input("Enter temperature in Celsius: "))
+
+# Step 2: Convert Celsius to Fahrenheit
+fahrenheit = celsius * (9/5) + 32
+
+# Step 3: Print the converted temperature
+print(f"Temperature in Fahrenheit: {fahrenheit}")
