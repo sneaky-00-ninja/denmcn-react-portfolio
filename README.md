@@ -37,6 +37,11 @@ Now this is to be a temporary planning space for my history section of my Portfo
 
       2023- Coding foundations. Bottega University DevCamp.
 
+      2021-2023
+    Grado superior de Automatización y Robótica Industrial
+
+
+
       2018- Bachelor of Engineering in Design and Innovation
 
 
