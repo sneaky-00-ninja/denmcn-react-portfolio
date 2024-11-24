@@ -5,7 +5,14 @@ This is the file for noting progress with the plans and actions for continual gr
       Review Bottega DevCamp tutorial Videos. 
 
 2). Projects 
-      Improve the Vocab Booster app. 
-      Create a new project that involves some sort of transaction process. 
-      Create a project that can be installed on a phone as an app. 
+      2A. Improve the Vocab Booster app. 
+      2B. Create a new project that involves some sort of transaction process. 
+      2C. Create a project that can be installed on a phone as an app. 
       
+
+
+
+
+
+
+2C details. Will be making an basic customised alternative to Duolingo, where the goal is to able to record audio directly to a library, and later on play the audio in pairs (lang A and lang B). 
